@@ -1,0 +1,72 @@
+/* Global stil ayarları */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;  /* Sayfanın genişliği ekranla uyumlu */
+  height: 100%; /* HTML ve body yüksekliği tam ekran olacak */
+  overflow-x: hidden;  /* Yatay kaymayı engeller */
+  background-color:#fff;
+  color: #fff; /* Yazı rengini beyaz yapar */
+  box-sizing: border-box; /* Tüm öğeler için box model */
+}
+
+/* Container'ı sınırlamak ve kaymayı engellemek için */
+.container {
+  max-width: 100%; /* Container'ın genişliğini sınırlamak için */
+  padding: 0 15px; /* İçerik için hafif boşluk */
+}
+
+/* Row düzeni */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;  /* Taşmalar engellenir */
+  width: 100%; /* Row genişliği */
+}
+
+/* Buton ve input gibi öğeler için genel stil */
+button, input, select {
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+/* Formdaki input alanlarının düzenlenmesi */
+input, select {
+  width: 100%;  /* Form elemanlarının genişliğini %100 yapar */
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input:focus, select:focus {
+  border-color: #007bff;  /* Focus durumunda mavi renk */
+  outline: none;
+}
+
+/* Başlık ve metinler için stil */
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Yatay kaymayı engellemek ve sabit ekran düzeni sağlamak */
+@media (max-width: 768px) {
+  html, body {
+    background-color: red;  /* Mobil cihazlarda da kırmızı arka plan */
+  }
+
+  .container {
+    padding: 0 15px; /* Mobil cihazlarda container'a padding ekler */
+  }
+
+  .row {
+    flex-direction: column;  /* Mobilde dikey hizalama */
+  }
+}

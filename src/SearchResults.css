@@ -1,0 +1,81 @@
+/* General styles for tabs */
+.tabs-container {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Tab content styling */
+  .tab-title {
+    padding: 10px 20px;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .tab-description {
+    padding: 5px 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Accordion styles */
+  .accordion {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .accordion-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 15px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .accordion-summary:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .accordion-details {
+    padding: 20px;
+    background-color: #fafafa;
+  }
+  
+  .accordion-summary .price {
+    font-weight: bold;
+    color: #1a73e8;
+  }
+  
+  .accordion-summary .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .accordion-summary .icons .icon {
+    margin-left: 10px;
+    color: #1a73e8;
+  }
+  
+  .accordion-details .leg-info {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-details .leg-info .carrier {
+    color: #333;
+  }
+  
+  .accordion-details .leg-info .route {
+    color: #666;
+  }
+  
+  .accordion-details .leg-info .times,
+  .accordion-details .leg-info .duration {
+    color: #333;
+  }
+  

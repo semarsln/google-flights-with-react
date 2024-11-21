@@ -1,0 +1,43 @@
+footer {
+    background-color: #f1f1f1; /* Açık gri arka plan */
+    padding: 40px 0;
+  }
+  
+  footer h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  footer .nav-link {
+    color: #555;
+    font-size: 0.9rem;
+    padding: 8px 0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer .nav-link:hover {
+    color: #1a73e8; /* Google mavi rengi */
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    color: #555;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #1a73e8; /* Google mavi rengi */
+  }
+  
+  footer .text-center p {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  footer .d-flex a {
+    margin-right: 15px;
+  }
+  

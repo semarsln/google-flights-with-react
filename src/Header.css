@@ -1,0 +1,38 @@
+/* General Navbar styling */
+.header-navbar {
+  padding: 20px 30px;
+  position: relative;
+}
+
+/* Button styling */
+.header-button {
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  color: #1a73e8;
+  border: 1px solid #1a73e8;
+  margin: 0 10px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.header-button i {
+  margin-right: 8px;
+  color: #1a73e8;
+}
+
+/* Hover effect for buttons */
+.header-button:hover {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.header-button:hover i {
+  color: white;
+}
+
+/* Offcanvas styling */
+.header-offcanvas {
+  margin-top: 56px; /* Align with navbar */
+}

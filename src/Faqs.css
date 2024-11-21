@@ -1,0 +1,32 @@
+.accordion-container {
+  width: 50%; /* Akordeon genişliği */
+  margin: 0 auto; /* Sayfa ortasına hizalar */
+  padding: 2rem 0; /* Üst ve alt boşluk */
+  display: flex; /* Flexbox kullanımı */
+  flex-direction: column; /* Dikey düzen */
+  align-items: left; /* Yatay ortalama */
+}
+
+.accordion-item {
+  background-color: transparent !important;
+  border: none;
+}
+
+.accordion-header {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.accordion-body {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  color: black;
+}
+/* Faqs.css */
+
+/* Title for the FAQ section */
+.faq-title {
+  font-size: 1.5rem;  /* Adjust the size as needed */
+  font-weight: bold;  /* Optional: Makes the title bold */
+  text-align: left;  /* Align to the left */
+}

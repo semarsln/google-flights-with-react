@@ -1,0 +1,47 @@
+.tools-section {
+  height: 100vh; /* Full-screen height */
+  display: flex; /* Enable Flexbox layout */
+  flex-direction: column; /* Arrange content vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  text-align: center; /* Center align the text */
+  justify-items: center;
+  margin-left: 20%;
+}
+
+.tools-title {
+  font-size: 24px; /* Set the font size for the title */
+  font-weight: bold; /* Make the title bold */
+  margin-bottom: 20px; /* Add space below the title */
+}
+
+.card-background {
+  transition: transform 0.2s ease-in-out; /* Smooth scaling effect on hover */
+}
+
+.card-background:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.selected-card {
+  border: 2px solid #007bff; /* Highlight the selected card with a blue border */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the selected card */
+}
+
+.tool-alert {
+  font-size: 18px; /* Set the font size for the alert text */
+  width: 70%; /* Set the alert box width */
+  text-align: center; /* Center the text inside the alert */
+}
+
+.alert-image {
+  max-width: 100%; /* Ensure the image fits within the container */
+  margin-top: 20px; /* Add space above the image */
+}
+
+/* Global styles for consistent height behavior */
+html, body {
+  height: 100%; /* Ensure the height of the body and html matches the viewport */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
